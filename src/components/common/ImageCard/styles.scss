@@ -1,0 +1,12 @@
+.image-div {
+    min-height: 230px;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 230px
+}
+
+.image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}

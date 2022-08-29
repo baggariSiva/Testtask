@@ -1,0 +1,19 @@
+@use 'src/scss/index.scss';
+$header_bgColor: index.$primary-color;
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $header_bgColor;
+    padding: 1.5rem 3rem;
+    font-weight: 600;
+}
+
+.header div a{
+    color: aliceblue;
+    text-decoration: none;
+    &:hover{
+        opacity: .9;
+    }
+    padding: 1rem;
+}

@@ -1,0 +1,40 @@
+@import "../../scss/index.scss";
+
+.product-card-root {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    width: 100%;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.product-price {
+    width: 15%;
+}
+
+.product-ratings {
+    font-weight: 500;
+    color: #878787;
+}
+
+.product-ratings-chip {
+    background: $primary-color;
+    color: $white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
